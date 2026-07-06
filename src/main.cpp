@@ -4,9 +4,9 @@
 using namespace std;
 
 int main() {
-    double score1 = 0.0;
-    double score2 = 0.0;
-    double score3 = 0.0;
+    double score1;
+    double score2;
+    double score3;
 
     cout << "Grade Analyzer" << endl;
     cout << endl;
@@ -36,7 +36,7 @@ int main() {
     }
 
     double total = calculateTotal(score1, score2, score3);
-    double average = calculateAverage(total, SCORE_COUNT);
+    double average = calculateAverage(total, 3);
     char letterGrade = determineLetterGrade(average);
     bool passing = isPassing(average);
 
