@@ -35,12 +35,12 @@ char determineLetterGrade(double average) {
 
 bool isPassing(double average) {
     // TODO: Return true when average is 70 or higher.
-    return average >=70.0;
+    return average >= 70.0;
 }
 
 bool isValidScore(double score) {
     // TODO: Return true when score is between 0 and 100, inclusive.
-    return score >0.0 && score <= 100.0;
+    return score >= 0.0 && score <= 100.0;
 }
 
 void printGradeReport(double total, double average, char letterGrade, bool passing) {
